@@ -7,6 +7,8 @@ import {
 import Header from './Header';
 import Color from './Color';
 import Red from './Red';
+import Blue from './Blue';
+import Yellow from './Yellow';
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <Header />
         <Switch>
           <Route path ="/red" component={Red} />
+          <Route path ="/blue" component={Blue} />
+          <Route path ="/yellow" component={Yellow} />
           <Route path="/:color" component={Color} />
         </Switch>
         </>

@@ -10,6 +10,14 @@ exports[`app renders 1`] = `
     />
     <Route
       component={[Function]}
+      path="/blue"
+    />
+    <Route
+      component={[Function]}
+      path="/yellow"
+    />
+    <Route
+      component={[Function]}
       path="/:color"
     />
   </Switch>
