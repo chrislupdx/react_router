@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from './Header';
 import Color from './Color';
+import Red from './Red';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <>
         <Header />
         <Switch>
+          <Route path ="/red" component={Red} />
           <Route path="/:color" component={Color} />
         </Switch>
         </>
