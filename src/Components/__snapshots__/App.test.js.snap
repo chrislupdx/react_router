@@ -1,3 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`app renders 1`] = `""`;
+exports[`app renders 1`] = `
+<BrowserRouter>
+  <Header />
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/:color"
+    />
+  </Switch>
+</BrowserRouter>
+`;
